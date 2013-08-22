@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# code creates an executable script file and opens it in your editor
+# example: code python foo.py
+
+echo \#\!$(which env) $1 > $2
+chmod +x $2
+$EDITOR $2
