@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# opens a file in the associated application
+# example: open foo.png
+
+ xdg-open $1 &> /dev/null
