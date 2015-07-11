@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# slate cleans up after programs by running clear after they execute
-# example: slate make
-
-"$@"
-clear
